@@ -42,3 +42,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1.5-1
++ Revision: 776421
+- Import R-polspline
+- Import R-polspline
+
