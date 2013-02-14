@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.1.5
+Version:          1.1.6
 Release:          1
 Summary:          Polynomial spline routines
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/polspline_1.1.6.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
@@ -42,11 +42,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1.5-1
-+ Revision: 776421
-- Import R-polspline
-- Import R-polspline
-
