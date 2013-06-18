@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.1.6
-Release:          1
+Release:          2
 Summary:          Polynomial spline routines
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
